@@ -10,6 +10,10 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "npm install",
+    "build:client": "npm install && npm run build",
+    "build:server": "npm install && npm run build"
+
   }
 }
